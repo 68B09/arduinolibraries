@@ -1,0 +1,13 @@
+1.チェックアウト
+*Project*/
+├arduinolibraries ← チェックアウトしたリポジトリ
+│├.git
+│└README ← 本ファイル
+├include
+├lib
+├src
+└platformio.ini
+
+2.Platformio.ini に
+lib_extra_dirs = .\arduinolibraries
+の１行を追加する。
